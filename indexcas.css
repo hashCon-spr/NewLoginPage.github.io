@@ -3,7 +3,7 @@
   margin: 0px;
 }
 body{
-  background-image: url("beautiful-scenery-lake-surrounded-by-forested-mountains-purple-sky-sunset.jpg");
+  background-image: url('beautiful-scenery-lake-surrounded-by-forested-mountains-purple-sky-sunset.jpg');
   background-size: cover;
   display: flex;
   justify-content: center;
