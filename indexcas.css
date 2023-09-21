@@ -63,6 +63,14 @@ input:focus+label {
   top: 0;
   transform: translateY(-50%) scale(0.9) !important;
 }
+input:not(:placeholder-shown)+label {
+  top: 0;
+  transform: translateY(-50%) scale(0.9) !important;
+}
+
+input:not(:focus)::placeholder {
+  opacity: 0;
+}
 .btn-vat{
   width: 340px;
   height: 40px;
