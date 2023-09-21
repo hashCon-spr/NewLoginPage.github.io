@@ -30,39 +30,35 @@ label {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #0066ff;
-  color: white;
+  background-color: white;
+  color: gray;
   padding: 0 0.3rem;
-  font-family: sans-serif;
   margin: 0 0.5rem;
   transition: 0.1s ease-out;
   transform-origin: left top;
   pointer-events: none;
-  margin-left: 40px;
-  padding-left: 10px;
 }
+
 input {
   font-size: 1rem;
   outline: none;
-  border: 1px solid white;
-  padding: 1rem 0.7px;
-  color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 1rem 0.7rem;
+  color: gray;
   transition: 0.1s ease-out;
-  width: 330px;
-  height: 5px;
-  margin-left: 30px;
-  background-color: #0066ff;
-  padding-left: 5px;
 }
 
-input:focus{
-  border-color: white;
+input:focus {
+  border-color: #6200ee;
 }
+
 input:focus+label {
-  color: white;
+  color: #6200ee;
   top: 0;
   transform: translateY(-50%) scale(0.9) !important;
 }
+
 input:not(:placeholder-shown)+label {
   top: 0;
   transform: translateY(-50%) scale(0.9) !important;
