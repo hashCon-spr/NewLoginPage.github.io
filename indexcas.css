@@ -8,79 +8,73 @@ body{
   display: flex;
   justify-content: center;
 }
+
+p {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
 .super-box{
   background-color: #0066ff;
   width: 400px;
   height: 450px;
   border: 1px solid white;
   margin-top: 80px;
-}
-.f-label1{
-  position: relative;
-}
-.f-label2{
-  position: relative;
-}
-.f-label3{
-  position: relative;
-}
-label {
-  position: absolute;
-  font-size: 1rem;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: white;
-  color: gray;
-  padding: 0 0.3rem;
-  margin: 0 0.5rem;
-  transition: 0.1s ease-out;
-  transform-origin: left top;
-  pointer-events: none;
-}
-
-input {
-  font-size: 1rem;
-  outline: none;
-  border: 1px solid gray;
   border-radius: 5px;
-  padding: 1rem 0.7rem;
-  color: gray;
-  transition: 0.1s ease-out;
+  text-align: center;
 }
 
-input:focus {
-  border-color: #6200ee;
+.center-parent {
+  display: inline;
+  justify-content: center;
 }
 
-input:focus+label {
-  color: #6200ee;
-  top: 0;
-  transform: translateY(-50%) scale(0.9) !important;
+.center-children {
+  display: inline;
+  justify-content: center;
 }
 
-input:not(:placeholder-shown)+label {
-  top: 0;
-  transform: translateY(-50%) scale(0.9) !important;
+.custom-input {
+  margin-top: 100px;
+  width: 300px !important;
+  height: 30px !important;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+
 }
 
-input:not(:focus)::placeholder {
-  opacity: 0;
+::placeholder {
+  color: #ffffff
 }
-.btn-vat{
-  width: 340px;
+
+.custom-input-2 {
+  margin: 0px !important;
+}
+
+button {
+  border: none;
+  outline: none;
+  width: 150px;
   height: 40px;
-  border: 1px solid white;
-  background-image: linear-gradient(to top right, #ff0256 30%, #e01111 50%, #f0db10 100%);
-  margin-left: 30px;
-  border-radius: 10px;
-}
-.btn-vat span a{
-  position: absolute;
   color: white;
-  text-decoration: none;
-  display: block;
-  padding-left: 140px;
-  padding-top: 10px;
-  width: 100%;
+  background: linear-gradient(90deg, rgba(16,128,168,0.826009627483806) 0%, rgba(24,153,92,1) 100%, rgba(65,37,179,1) 100%, rgba(88,51,146,1) 100%, rgba(0,212,255,1) 100%, rgba(151,38,167,1) 100%);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.custom-p-1 {
+  color: white;
+  font-size: 15px;
+}
+
+.custom-p-1 a {
+  color: blue;
+  font-size: 15px;
 }
