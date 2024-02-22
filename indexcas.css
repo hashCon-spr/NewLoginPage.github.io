@@ -17,7 +17,8 @@ p {
 }
 
 .super-box{
-  background-color: #0066ff;
+  background-color: transparent;
+  backdrop-filter: blur(7px);
   width: 400px;
   height: 450px;
   border: 1px solid white;
@@ -41,7 +42,7 @@ p {
   width: 300px !important;
   height: 30px !important;
   background-color: transparent;
-  color: #ffffff;
+  color: black;
   border: none;
   outline: none;
   border-bottom: 2px solid white;
@@ -49,7 +50,7 @@ p {
 }
 
 ::placeholder {
-  color: #ffffff
+  color: black;
 }
 
 .custom-input-2 {
